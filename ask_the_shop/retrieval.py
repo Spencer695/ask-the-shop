@@ -97,11 +97,10 @@ class HybridRetriever:
     original RRF paper (Cormack et al., 2009).
     """
 
-    name = "hybrid"
-
     def __init__(self, retrievers: list, c: int = 60):
         self.retrievers = retrievers
         self.c = c
+        self.name = "hybrid" + ("-tuned" if any(getattr(r, "name", "").endswith("-tuned") for r in retrievers) else "")
 
     def search(self, question: str, k: int = 5) -> list[tuple[Chunk, float]]:
         fused: dict[Chunk, float] = {}
@@ -126,7 +125,7 @@ def load_vectors():
     return _VECTORS
 
 
-RETRIEVER_NAMES = ["bm25-nostem", "bm25", "embeddings", "hybrid"]
+RETRIEVER_NAMES = ["bm25-nostem", "bm25", "embeddings", "embeddings-tuned", "hybrid", "hybrid-tuned"]
 
 
 def build_retriever(name: str, chunks: list[Chunk]):
@@ -138,4 +137,9 @@ def build_retriever(name: str, chunks: list[Chunk]):
         return EmbeddingRetriever(chunks)
     if name == "hybrid":
         return HybridRetriever([BM25Retriever(chunks), EmbeddingRetriever(chunks)])
+    if name in ("embeddings-tuned", "hybrid-tuned"):
+        from .adapter import TunedEmbeddingRetriever  # needs PyTorch and models/adapter.pt
+
+        tuned = TunedEmbeddingRetriever(chunks)
+        return tuned if name == "embeddings-tuned" else HybridRetriever([BM25Retriever(chunks), tuned])
     raise ValueError(f"Unknown retriever: {name}")

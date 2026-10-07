@@ -1,0 +1,105 @@
+{"question": "What do you charge to ship a hoodie within the US?", "gold": ["shipping-options"]}
+{"question": "Is there a minimum order for free delivery?", "gold": ["shipping-options"]}
+{"question": "How soon after I buy does my stuff leave your warehouse?", "gold": ["shipping-options"]}
+{"question": "Which carrier do you use for regular deliveries?", "gold": ["shipping-options"]}
+{"question": "Do you offer overnight or rush delivery?", "gold": ["shipping-options"]}
+{"question": "Can you send orders to London?", "gold": ["international-shipping"]}
+{"question": "How much is delivery to Australia?", "gold": ["international-shipping"]}
+{"question": "Do I pay import taxes on orders to Japan?", "gold": ["international-shipping"]}
+{"question": "Does free shipping work for orders going to Canada?", "gold": ["international-shipping"]}
+{"question": "How long does it take for a package to reach France?", "gold": ["international-shipping"]}
+{"question": "How can I see where my package is?", "gold": ["order-tracking"]}
+{"question": "I never got a shipping confirmation email.", "gold": ["order-tracking"]}
+{"question": "Tracking says delivered but my mailbox was empty.", "gold": ["order-tracking"]}
+{"question": "Why does my tracking still say label created?", "gold": ["order-tracking"]}
+{"question": "Can I check my order status in my account?", "gold": ["order-tracking"]}
+{"question": "I think the post office lost my package.", "gold": ["lost-or-delayed-packages"]}
+{"question": "My order to the UK hasn't moved in two weeks.", "gold": ["lost-or-delayed-packages"]}
+{"question": "Do I need to file a claim with USPS myself?", "gold": ["lost-or-delayed-packages"]}
+{"question": "Will holiday shipping be slower?", "gold": ["lost-or-delayed-packages"]}
+{"question": "My box seems to be missing in transit, what now?", "gold": ["lost-or-delayed-packages"]}
+{"question": "What's your return policy?", "gold": ["returns"]}
+{"question": "Can I send back a hoodie after I cut the tags off?", "gold": ["returns"]}
+{"question": "How do I start a return?", "gold": ["returns"]}
+{"question": "Are sticker packs returnable?", "gold": ["returns"]}
+{"question": "Does a return label cost anything if I want my money back?", "gold": ["returns"]}
+{"question": "Can I swap my black tee for a different color?", "gold": ["exchanges"]}
+{"question": "Do I have to wait for my return to arrive before you ship the new size?", "gold": ["exchanges"]}
+{"question": "How many times can I exchange the same item?", "gold": ["exchanges"]}
+{"question": "Is shipping free on a size exchange?", "gold": ["exchanges"]}
+{"question": "I want a bigger size of the crewneck I bought.", "gold": ["exchanges"]}
+{"question": "How long do refunds take to show on my card?", "gold": ["refunds"]}
+{"question": "Will my refund go back to PayPal?", "gold": ["refunds"]}
+{"question": "I paid with a gift card, how do I get refunded?", "gold": ["refunds"]}
+{"question": "If I used a discount code, how much do I get back?", "gold": ["refunds"]}
+{"question": "When will my return be processed?", "gold": ["refunds"]}
+{"question": "My tote bag arrived with a hole in it.", "gold": ["damaged-or-wrong-items"]}
+{"question": "One of my pins came broken.", "gold": ["damaged-or-wrong-items"]}
+{"question": "I received someone else's order.", "gold": ["damaged-or-wrong-items"]}
+{"question": "Do I need to mail back a defective item?", "gold": ["damaged-or-wrong-items"]}
+{"question": "The stitching on my hoodie came apart after a few weeks.", "gold": ["damaged-or-wrong-items"]}
+{"question": "What sizes does the crewneck come in?", "gold": ["size-guide-tops"]}
+{"question": "How do I figure out my size?", "gold": ["size-guide-tops"]}
+{"question": "Is the logo tee unisex?", "gold": ["size-guide-tops"]}
+{"question": "I want my hoodie to fit normally, not baggy.", "gold": ["size-guide-tops"]}
+{"question": "How thick is the hoodie fabric?", "gold": ["size-guide-tops"]}
+{"question": "Is the dad hat one size fits all?", "gold": ["hats-and-accessories"]}
+{"question": "How many stickers come in a pack?", "gold": ["hats-and-accessories"]}
+{"question": "How many pins are in the pin set?", "gold": ["hats-and-accessories"]}
+{"question": "How long are the tote straps?", "gold": ["hats-and-accessories"]}
+{"question": "Are the stickers vinyl or paper?", "gold": ["hats-and-accessories"]}
+{"question": "Can I bleach my white tee?", "gold": ["washing-and-care"]}
+{"question": "Is it okay to put my sweatshirt in the dryer?", "gold": ["washing-and-care"]}
+{"question": "How do I clean the tote bag?", "gold": ["washing-and-care"]}
+{"question": "Can I iron the shirt?", "gold": ["washing-and-care"]}
+{"question": "Best way to keep the print from fading?", "gold": ["washing-and-care"]}
+{"question": "When does the FALL15 code expire?", "gold": ["discount-codes"]}
+{"question": "How do I get a free shipping code?", "gold": ["discount-codes"]}
+{"question": "Can I use a promo code on a gift card?", "gold": ["discount-codes"]}
+{"question": "Do you have a welcome discount for new customers?", "gold": ["discount-codes"]}
+{"question": "Can I combine WELCOME10 with FREESHIP?", "gold": ["discount-codes"]}
+{"question": "What amounts can I buy gift cards in?", "gold": ["gift-cards"]}
+{"question": "Can I schedule a gift card to arrive on my mom's birthday?", "gold": ["gift-cards"]}
+{"question": "My friend lost the gift card email.", "gold": ["gift-cards"]}
+{"question": "Can I use a gift card and a coupon together?", "gold": ["gift-cards"]}
+{"question": "Can I cash out my gift card balance?", "gold": ["gift-cards"]}
+{"question": "Do you take American Express?", "gold": ["payment-methods"]}
+{"question": "Can I check out with PayPal?", "gold": ["payment-methods"]}
+{"question": "When does my card get charged?", "gold": ["payment-methods"]}
+{"question": "Do you charge sales tax?", "gold": ["payment-methods"]}
+{"question": "Is there a buy now pay later option?", "gold": ["payment-methods"]}
+{"question": "How do I change the size on an order I just placed?", "gold": ["changing-or-canceling-an-order"]}
+{"question": "Can I cancel after a couple of hours?", "gold": ["changing-or-canceling-an-order"]}
+{"question": "My package already shipped to the wrong address, can you reroute it?", "gold": ["changing-or-canceling-an-order"]}
+{"question": "Where is the cancel button for my order?", "gold": ["changing-or-canceling-an-order"]}
+{"question": "Can I swap an item in my order before it ships?", "gold": ["changing-or-canceling-an-order"]}
+{"question": "My password reset link doesn't work anymore.", "gold": ["account-and-emails"]}
+{"question": "How do I stop the text messages?", "gold": ["account-and-emails"]}
+{"question": "Can I delete my account?", "gold": ["account-and-emails"]}
+{"question": "Why should I create an account?", "gold": ["account-and-emails"]}
+{"question": "I unsubscribed but still got an email about my order.", "gold": ["account-and-emails"]}
+{"question": "Will the limited edition hoodie come back?", "gold": ["restocks-and-preorders"]}
+{"question": "How do I get notified when my size is back?", "gold": ["restocks-and-preorders"]}
+{"question": "When do you charge me for a preorder?", "gold": ["restocks-and-preorders"]}
+{"question": "The preorder date got pushed back, can I cancel?", "gold": ["restocks-and-preorders"]}
+{"question": "Can you ship the in stock part of my order first?", "gold": ["restocks-and-preorders"]}
+{"question": "Do you offer discounts for large orders?", "gold": ["bulk-and-wholesale"]}
+{"question": "How long do bulk orders take?", "gold": ["bulk-and-wholesale"]}
+{"question": "How do I become a stockist?", "gold": ["bulk-and-wholesale"]}
+{"question": "What is the minimum for wholesale reorders?", "gold": ["bulk-and-wholesale"]}
+{"question": "Can you embroider our company name on hats?", "gold": ["bulk-and-wholesale"]}
+{"question": "Do you have local pickup in Orange County?", "gold": ["local-pickup-and-events"]}
+{"question": "Is your studio a store I can shop in?", "gold": ["local-pickup-and-events"]}
+{"question": "What do I need to bring when I pick up?", "gold": ["local-pickup-and-events"]}
+{"question": "Can I return something I bought at a market?", "gold": ["local-pickup-and-events"]}
+{"question": "Do you take cards at your pop up booth?", "gold": ["local-pickup-and-events"]}
+{"question": "What's your support email?", "gold": ["contact-us"]}
+{"question": "Are you open on weekends?", "gold": ["contact-us"]}
+{"question": "Do you have live chat?", "gold": ["contact-us"]}
+{"question": "What are your customer service hours?", "gold": ["contact-us"]}
+{"question": "What should I include when I email support?", "gold": ["contact-us"]}
+{"question": "What personal information do you collect?", "gold": ["privacy"]}
+{"question": "Can I get a copy of my data?", "gold": ["privacy"]}
+{"question": "Who do you share my address with?", "gold": ["privacy"]}
+{"question": "Do you use my email for marketing?", "gold": ["privacy"]}
+{"question": "How do I ask you to delete my personal data?", "gold": ["privacy", "account-and-emails"]}

@@ -9,7 +9,9 @@
 | bm25-nostem | 50% | 73% | 0.65 | 78% |
 | bm25 | 57% | 75% | 0.69 | 83% |
 | embeddings | 58% | 82% | 0.72 | 83% |
+| embeddings-tuned | 65% | 88% | 0.77 | 88% |
 | hybrid | 70% | 83% | 0.79 | 88% |
+| hybrid-tuned | 68% | 88% | 0.78 | 90% |
 
 ### Questions where the right article wasn't ranked first
 
@@ -103,6 +105,30 @@
 - q57: "Is there a number I can call?" ranked `privacy` first; right article at rank 2
 - q58: "How fast do you answer emails?" ranked `account-and-emails` first; right article at rank 5
 
+**embeddings-tuned** (21)
+
+- q03: "If I pick the cheapest shipping option, how many days until my package gets here?" ranked `changing-or-canceling-an-order` first; right article at rank 2
+- q04: "I need my hoodie by this weekend. Can I pay to get it faster?" ranked `payment-methods` first; right article at rank 8
+- q05: "I ordered at 4 in the afternoon. Will it go out today?" ranked `contact-us` first; right article at rank 2
+- q07: "Do you deliver to Toronto?" ranked `local-pickup-and-events` first; right article at rank 2
+- q13: "Is it okay to return a shirt I wore once and washed?" ranked `washing-and-care` first; right article at rank 3
+- q14: "How long do I have to send something back?" ranked `damaged-or-wrong-items` first; right article at rank 7
+- q15: "Can I return the pin set if I changed my mind?" ranked `hats-and-accessories` first; right article at rank 5
+- q17: "The medium tee is too tight. Can I trade it for a large?" ranked `size-guide-tops` first; right article at rank 3
+- q20: "Will I get my shipping cost back when I return something?" ranked `returns` first; right article at rank 2
+- q21: "My hat showed up with the strap ripped." ranked `hats-and-accessories` first; right article at rank 2
+- q22: "You sent me a crewneck but I ordered a hoodie." ranked `size-guide-tops` first; right article at rank 4
+- q26: "Will the t-shirt shrink if I dry it?" ranked `washing-and-care` first; right article at rank 2
+- q34: "How do I get 10% off my first purchase?" ranked `returns` first; right article at rank 10
+- q35: "Is there a sale going on right now?" ranked `shipping-options` first; right article at rank 18
+- q36: "I forgot to put in my coupon before I paid!" ranked `refunds` first; right article at rank 2
+- q39: "Can I split my payment into smaller chunks?" ranked `exchanges` first; right article at rank 2
+- q47: "The hoodie in my size is sold out. Will you get more?" ranked `exchanges` first; right article at rank 3
+- q50: "Our club wants 30 matching hoodies. Do you give a discount?" ranked `discount-codes` first; right article at rank 8
+- q51: "Can you print our team logo on your shirts?" ranked `size-guide-tops` first; right article at rank 2
+- q53: "I live in Anaheim. Can I just grab my order instead of paying shipping?" ranked `payment-methods` first; right article at rank 2
+- q58: "How fast do you answer emails?" ranked `account-and-emails` first; right article at rank 3
+
 **hybrid** (18)
 
 - q04: "I need my hoodie by this weekend. Can I pay to get it faster?" ranked `payment-methods` first; right article at rank 2
@@ -123,3 +149,25 @@
 - q53: "I live in Anaheim. Can I just grab my order instead of paying shipping?" ranked `payment-methods` first; right article at rank 2
 - q56: "How do I get in touch with a real person?" ranked `account-and-emails` first; right article at rank 3
 - q58: "How fast do you answer emails?" ranked `privacy` first; right article at rank 4
+
+**hybrid-tuned** (19)
+
+- q02: "My cart is $82 after my coupon. Do I still have to pay for shipping?" ranked `payment-methods` first; right article at rank 2
+- q04: "I need my hoodie by this weekend. Can I pay to get it faster?" ranked `payment-methods` first; right article at rank 3
+- q05: "I ordered at 4 in the afternoon. Will it go out today?" ranked `payment-methods` first; right article at rank 5
+- q07: "Do you deliver to Toronto?" ranked `bulk-and-wholesale` first; right article at rank 4
+- q13: "Is it okay to return a shirt I wore once and washed?" ranked `washing-and-care` first; right article at rank 3
+- q14: "How long do I have to send something back?" ranked `damaged-or-wrong-items` first; right article at rank 16
+- q15: "Can I return the pin set if I changed my mind?" ranked `hats-and-accessories` first; right article at rank 3
+- q17: "The medium tee is too tight. Can I trade it for a large?" ranked `size-guide-tops` first; right article at rank 5
+- q20: "Will I get my shipping cost back when I return something?" ranked `returns` first; right article at rank 3
+- q21: "My hat showed up with the strap ripped." ranked `hats-and-accessories` first; right article at rank 2
+- q22: "You sent me a crewneck but I ordered a hoodie." ranked `size-guide-tops` first; right article at rank 5
+- q26: "Will the t-shirt shrink if I dry it?" ranked `washing-and-care` first; right article at rank 2
+- q34: "How do I get 10% off my first purchase?" ranked `restocks-and-preorders` first; right article at rank 2
+- q35: "Is there a sale going on right now?" ranked `returns` first; right article at rank 14
+- q47: "The hoodie in my size is sold out. Will you get more?" ranked `exchanges` first; right article at rank 3
+- q50: "Our club wants 30 matching hoodies. Do you give a discount?" ranked `discount-codes` first; right article at rank 10
+- q53: "I live in Anaheim. Can I just grab my order instead of paying shipping?" ranked `payment-methods` first; right article at rank 2
+- q56: "How do I get in touch with a real person?" ranked `privacy` first; right article at rank 3
+- q58: "How fast do you answer emails?" ranked `privacy` first; right article at rank 3
