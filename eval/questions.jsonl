@@ -1,0 +1,70 @@
+{"id": "q01", "question": "How much does shipping cost?", "gold": ["shipping-options"], "facts": [["$6.95"], ["$75"]]}
+{"id": "q02", "question": "My cart is $82 after my coupon. Do I still have to pay for shipping?", "gold": ["shipping-options"], "facts": [["free"]]}
+{"id": "q03", "question": "If I pick the cheapest shipping option, how many days until my package gets here?", "gold": ["shipping-options"], "facts": [["3 to 7"]]}
+{"id": "q04", "question": "I need my hoodie by this weekend. Can I pay to get it faster?", "gold": ["shipping-options"], "facts": [["$14.95"], ["2 to 3"]]}
+{"id": "q05", "question": "I ordered at 4 in the afternoon. Will it go out today?", "gold": ["shipping-options"], "facts": [["next business day"]]}
+{"id": "q06", "question": "Can you mail an order to an APO address for my brother overseas?", "gold": ["shipping-options"], "facts": [["standard"]]}
+{"id": "q07", "question": "Do you deliver to Toronto?", "gold": ["international-shipping"], "facts": [["$18"]]}
+{"id": "q08", "question": "Will I get hit with customs fees if I order from Germany?", "gold": ["international-shipping"], "facts": [["duties", "import tax"]]}
+{"id": "q09", "question": "Where do I find the tracking number for my package?", "gold": ["order-tracking"], "facts": [["email"]]}
+{"id": "q10", "question": "The tracking link shows nothing yet even though I got the shipping email this morning.", "gold": ["order-tracking"], "facts": [["24 hours"]]}
+{"id": "q11", "question": "UPS says my box was delivered but it isn't on my porch.", "gold": ["order-tracking"], "facts": [["48 hours"]]}
+{"id": "q12", "question": "My package has been stuck in the same city for over a week.", "gold": ["lost-or-delayed-packages"], "facts": [["7 business days", "reship", "replacement"]]}
+{"id": "q13", "question": "Is it okay to return a shirt I wore once and washed?", "gold": ["returns"], "facts": [["unworn", "unwashed"]]}
+{"id": "q14", "question": "How long do I have to send something back?", "gold": ["returns"], "facts": [["30 days"]]}
+{"id": "q15", "question": "Can I return the pin set if I changed my mind?", "gold": ["returns"], "facts": [["final sale"]]}
+{"id": "q16", "question": "Do I have to pay for the return label?", "gold": ["returns", "exchanges"], "facts": [["$5.95"]]}
+{"id": "q17", "question": "The medium tee is too tight. Can I trade it for a large?", "gold": ["exchanges"], "facts": [["free"]]}
+{"id": "q18", "question": "What happens if the size I want to swap to is out of stock?", "gold": ["exchanges"], "facts": [["store credit"]]}
+{"id": "q19", "question": "I mailed my return last week. When will I see the money?", "gold": ["refunds"], "facts": [["3 business days"], ["5 to 10"]]}
+{"id": "q20", "question": "Will I get my shipping cost back when I return something?", "gold": ["refunds"], "facts": [["mistake", "error"]]}
+{"id": "q21", "question": "My hat showed up with the strap ripped.", "gold": ["damaged-or-wrong-items"], "facts": [["14 days"], ["photo"]]}
+{"id": "q22", "question": "You sent me a crewneck but I ordered a hoodie.", "gold": ["damaged-or-wrong-items"], "facts": [["replacement", "refund"]]}
+{"id": "q23", "question": "The print on my tee started peeling after two months.", "gold": ["damaged-or-wrong-items"], "facts": [["90 days", "replace"]]}
+{"id": "q24", "question": "I'm between a small and a medium in the tee. Which should I get?", "gold": ["size-guide-tops"], "facts": [["size up", "medium"]]}
+{"id": "q25", "question": "Does the hoodie run big?", "gold": ["size-guide-tops"], "facts": [["boxy", "oversized", "size down"]]}
+{"id": "q26", "question": "Will the t-shirt shrink if I dry it?", "gold": ["size-guide-tops"], "facts": [["3%", "pre-shrunk", "preshrunk"]]}
+{"id": "q27", "question": "What's the chest width on an XL tee?", "gold": ["size-guide-tops"], "facts": [["24"]]}
+{"id": "q28", "question": "I have a big head. Will the cap fit me?", "gold": ["hats-and-accessories"], "facts": [["23.5"]]}
+{"id": "q29", "question": "Is the tote bag big enough for my 15 inch MacBook?", "gold": ["hats-and-accessories"], "facts": [["15"]]}
+{"id": "q30", "question": "Can I put the stickers on my Hydro Flask?", "gold": ["hats-and-accessories"], "facts": [["waterproof", "water bottle"]]}
+{"id": "q31", "question": "How should I wash my hoodie so the design doesn't crack?", "gold": ["washing-and-care"], "facts": [["inside out"], ["cold"]]}
+{"id": "q32", "question": "Can I throw the dad hat in the washer?", "gold": ["washing-and-care"], "facts": [["hand wash"]]}
+{"id": "q33", "question": "Can I stack two promo codes on one order?", "gold": ["discount-codes"], "facts": [["one"]]}
+{"id": "q34", "question": "How do I get 10% off my first purchase?", "gold": ["discount-codes"], "facts": [["WELCOME10"]]}
+{"id": "q35", "question": "Is there a sale going on right now?", "gold": ["discount-codes"], "facts": [["FALL15", "15%"]]}
+{"id": "q36", "question": "I forgot to put in my coupon before I paid!", "gold": ["discount-codes", "changing-or-canceling-an-order"], "facts": [["1 hour", "one hour"]]}
+{"id": "q37", "question": "Do your gift cards have an expiration date?", "gold": ["gift-cards"], "facts": [["never expire", "don't expire", "do not expire", "no expiration"]]}
+{"id": "q38", "question": "Can I buy a gift card to put in a birthday card?", "gold": ["gift-cards"], "facts": [["digital"]]}
+{"id": "q39", "question": "Can I split my payment into smaller chunks?", "gold": ["payment-methods"], "facts": [["Shop Pay"], ["4"]]}
+{"id": "q40", "question": "Do you take Apple Pay?", "gold": ["payment-methods"], "facts": [["Apple Pay"]]}
+{"id": "q41", "question": "I put the wrong street address on my order. Can I fix it?", "gold": ["changing-or-canceling-an-order"], "facts": [["confirmation email"]]}
+{"id": "q42", "question": "I want to cancel my order. Is that possible?", "gold": ["changing-or-canceling-an-order"], "facts": [["1 hour", "one hour"]]}
+{"id": "q43", "question": "Can I add another tee to the order I placed this morning?", "gold": ["changing-or-canceling-an-order"], "facts": [["reorder", "cancel"]]}
+{"id": "q44", "question": "I can't log in, I don't remember my password.", "gold": ["account-and-emails"], "facts": [["forgot password", "reset"]]}
+{"id": "q45", "question": "How do I stop all the marketing emails?", "gold": ["account-and-emails"], "facts": [["unsubscribe"]]}
+{"id": "q46", "question": "Do I need to make an account to order?", "gold": ["account-and-emails"], "facts": [["guest"]]}
+{"id": "q47", "question": "The hoodie in my size is sold out. Will you get more?", "gold": ["restocks-and-preorders"], "facts": [["4 to 6"], ["notify me"]]}
+{"id": "q48", "question": "When will my preorder ship?", "gold": ["restocks-and-preorders"], "facts": [["product page"]]}
+{"id": "q49", "question": "I ordered a preorder hat and a tee together. Will the tee come first?", "gold": ["restocks-and-preorders"], "facts": [["together"]]}
+{"id": "q50", "question": "Our club wants 30 matching hoodies. Do you give a discount?", "gold": ["bulk-and-wholesale"], "facts": [["10%"]]}
+{"id": "q51", "question": "Can you print our team logo on your shirts?", "gold": ["bulk-and-wholesale"], "facts": [["don't", "do not", "does not", "doesn't", "not offer", "no custom"]]}
+{"id": "q52", "question": "I own a boutique. Can I carry your products?", "gold": ["bulk-and-wholesale"], "facts": [["$300"]]}
+{"id": "q53", "question": "I live in Anaheim. Can I just grab my order instead of paying shipping?", "gold": ["local-pickup-and-events"], "facts": [["pickup", "pick up"]]}
+{"id": "q54", "question": "What time can I come by the studio to get my order?", "gold": ["local-pickup-and-events"], "facts": [["11"], ["5 pm", "5pm", "5:00"]]}
+{"id": "q55", "question": "Where can I find out about your next pop-up?", "gold": ["local-pickup-and-events"], "facts": [["Instagram"]]}
+{"id": "q56", "question": "How do I get in touch with a real person?", "gold": ["contact-us"], "facts": [["help@fernwoodsupply.example", "chat"]]}
+{"id": "q57", "question": "Is there a number I can call?", "gold": ["contact-us"], "facts": [["phone support"]]}
+{"id": "q58", "question": "How fast do you answer emails?", "gold": ["contact-us"], "facts": [["1 business day", "one business day"]]}
+{"id": "q59", "question": "Is my credit card number saved on your site?", "gold": ["payment-methods", "privacy"], "facts": [["processor"]]}
+{"id": "q60", "question": "Do you sell customer info to advertisers?", "gold": ["privacy"], "facts": [["never sell", "don't sell", "do not sell"]]}
+{"id": "u01", "question": "Do you offer a student discount?", "gold": [], "facts": []}
+{"id": "u02", "question": "Are your shirts made in the USA?", "gold": [], "facts": []}
+{"id": "u03", "question": "Do you have a rewards or points program?", "gold": [], "facts": []}
+{"id": "u04", "question": "Will you match a lower price I found on another website?", "gold": [], "facts": []}
+{"id": "u05", "question": "Do you offer gift wrapping?", "gold": [], "facts": []}
+{"id": "u06", "question": "Is the cotton in your tees organic?", "gold": [], "facts": []}
+{"id": "u07", "question": "Are you hiring for the holiday season?", "gold": [], "facts": []}
+{"id": "u08", "question": "What colors does the dad hat come in?", "gold": [], "facts": []}
+{"id": "u09", "question": "Do you donate any of your profits to charity?", "gold": [], "facts": []}
+{"id": "u10", "question": "Can I schedule my delivery for a specific day?", "gold": [], "facts": []}
